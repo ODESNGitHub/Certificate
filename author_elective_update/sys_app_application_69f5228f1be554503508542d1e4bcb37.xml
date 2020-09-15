@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="">Custom Applications</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order/>
+        <roles>x_opde_certificate.certificate_record_write</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>mgrabar</sys_created_by>
+        <sys_created_on>2020-06-26 16:30:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>69f5228f1be554503508542d1e4bcb37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Certificates</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Certificates" source="x_opde_certificate">f424aa4b1be554503508542d1e4bcb12</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Certificates">f424aa4b1be554503508542d1e4bcb12</sys_scope>
+        <sys_update_name>sys_app_application_69f5228f1be554503508542d1e4bcb37</sys_update_name>
+        <sys_updated_by>mgrabar</sys_updated_by>
+        <sys_updated_on>2020-06-26 16:30:39</sys_updated_on>
+        <title>Certificates</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Certificates">f424aa4b1be554503508542d1e4bcb12</application>
+        <file_path/>
+        <instance_id>acc5a8626f60f1c04c327b2f5d3ee417</instance_id>
+        <instance_name>opendealerexchange</instance_name>
+        <name>sys_app_application_69f5228f1be554503508542d1e4bcb37</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="">Custom Applications</category><description/><device_type>browser</device_type><hint/><name/><order/><roles>x_opde_certificate.certificate_record_write</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>mgrabar</sys_created_by><sys_created_on>2020-06-26 16:30:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>69f5228f1be554503508542d1e4bcb37</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Certificates</sys_name><sys_overrides/><sys_package display_value="Certificates" source="x_opde_certificate">f424aa4b1be554503508542d1e4bcb12</sys_package><sys_policy/><sys_scope display_value="Certificates">f424aa4b1be554503508542d1e4bcb12</sys_scope><sys_update_name>sys_app_application_69f5228f1be554503508542d1e4bcb37</sys_update_name><sys_updated_by>mgrabar</sys_updated_by><sys_updated_on>2020-06-26 16:30:39</sys_updated_on><title>Certificates</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-1481444949</payload_hash>
+        <record_name>Certificates</record_name>
+        <reverted_from/>
+        <source>f4242e8b1be554503508542d1e4bcbe2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mgrabar</sys_created_by>
+        <sys_created_on>2020-06-26 16:30:39</sys_created_on>
+        <sys_id>a5f5228f1be554503508542d1e4bcb3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172f1777e6c0000001</sys_recorded_at>
+        <sys_updated_by>mgrabar</sys_updated_by>
+        <sys_updated_on>2020-06-26 16:30:39</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>edf5228fcee554507a388745335aec39</update_guid>
+        <update_guid_history>edf5228fcee554507a388745335aec39:-1481444949</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">2ea62e431b2954503508542d1e4bcb84</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mgrabar</sys_created_by>
+        <sys_created_on>2020-06-26 16:33:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>802e03dcf30c41d88ec26789fd5fcd10</sys_id>
+        <sys_metadata>69f5228f1be554503508542d1e4bcb37</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Certificates</sys_name>
+        <sys_package display_value="Certificates" source="x_opde_certificate">f424aa4b1be554503508542d1e4bcb12</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Certificates">f424aa4b1be554503508542d1e4bcb12</sys_scope>
+        <sys_scope_delete display_value="">3bdfbb9635a8416ca1f980ba35cefa90</sys_scope_delete>
+        <sys_update_name>sys_app_application_69f5228f1be554503508542d1e4bcb37</sys_update_name>
+        <sys_update_version display_value="sys_app_application_69f5228f1be554503508542d1e4bcb37">a5f5228f1be554503508542d1e4bcb3a</sys_update_version>
+        <sys_updated_by>mgrabar</sys_updated_by>
+        <sys_updated_on>2020-06-26 16:33:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

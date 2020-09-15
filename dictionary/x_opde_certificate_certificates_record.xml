@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Certificates (Record)" max_length="40" name="x_opde_certificate_certificates_record" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Additional Information" max_length="500" name="additional_information" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="31440 Northwestern Highway Suite 250" label="Address" max_length="40" name="address" type="string"/>
+        <element attributes="encode_utf8=false" label="Admin Contact Information" max_length="32" name="admin_contact_information" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="Farmington Hills" label="City/Location" max_length="40" name="city_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Common Name" max_length="40" name="common_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="Farmington Hills" label="Company City" max_length="40" name="company_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="United States" label="Company Country" max_length="40" name="company_country" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="Open Dealer Exchange, LLC." label="Company Name" max_length="40" name="company_name" type="string"/>
+        <element label="Company Phone Number" max_length="40" name="company_phone_number" type="phone_number_e164"/>
+        <element attributes="edge_encryption_enabled=true" default="48334" label="Company Postal Code" max_length="40" name="company_postal_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="Michigan" label="Company State/Province" max_length="40" name="company_state_province" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Expiration date" max_length="40" name="expiration_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" default="Open Dealer Exchange, LLC." label="Organization" max_length="50" name="organization" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Organizational Unit" max_length="40" name="organizational_unit" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="United States" label="Organization Country" max_length="40" name="organization_country" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="Michigan" label="Organization State/Province" max_length="40" name="organization_state_province" type="string"/>
+        <element attributes="encode_utf8=false" label="Server" max_length="32" name="server" reference="cmdb_ci_server" type="reference"/>
+        <index name="index">
+            <element name="admin_contact_information"/>
+        </index>
+        <index name="index2">
+            <element name="server"/>
+        </index>
+    </element>
+</database>
