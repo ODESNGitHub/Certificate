@@ -17,7 +17,6 @@
         <element attributes="edge_encryption_enabled=true" default="United States" label="Organization Country" max_length="40" name="organization_country" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="Michigan" label="Organization State/Province" max_length="40" name="organization_state_province" type="string"/>
         <element attributes="encode_utf8=false" label="Server" max_length="32" name="server" reference="cmdb_ci_server" type="reference"/>
-        <element label="Server List" max_length="4000" name="server_list" reference="cmdb_ci" type="glide_list"/>
         <index name="index">
             <element name="admin_contact_information"/>
         </index>

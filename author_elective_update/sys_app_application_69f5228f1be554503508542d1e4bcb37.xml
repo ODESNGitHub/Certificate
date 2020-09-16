@@ -52,7 +52,7 @@
         <update_guid_history>edf5228fcee554507a388745335aec39:-1481444949</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">2ea62e431b2954503508542d1e4bcb84</sys_audit_delete>
+        <sys_audit_delete display_value="Certificates">2ea62e431b2954503508542d1e4bcb84</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>mgrabar</sys_created_by>
         <sys_created_on>2020-06-26 16:33:44</sys_created_on>
