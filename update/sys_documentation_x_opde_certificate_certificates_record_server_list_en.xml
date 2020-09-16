@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="organization_country" label="Organization Country" language="en" table="x_opde_certificate_certificates_record">
+    <sys_documentation element="server_list" label="Server List" language="en" table="x_opde_certificate_certificates_record">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>organization_country</element>
+            <element>server_list</element>
             <help/>
             <hint/>
-            <label>Organization Country</label>
+            <label>Server List</label>
             <language>en</language>
             <name>x_opde_certificate_certificates_record</name>
-            <plural>Organization Countries</plural>
+            <plural>Server Lists</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>mgrabar</sys_created_by>
-            <sys_created_on>2020-06-26 16:30:15</sys_created_on>
-            <sys_id>dc6d94d11b9b5c106b6dfee58d4bcb13</sys_id>
+            <sys_created_on>2020-09-16 19:00:51</sys_created_on>
+            <sys_id>41ba51a91b93dc106b6dfee58d4bcbb6</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Organization Country</sys_name>
+            <sys_name>Server List</sys_name>
             <sys_package display_value="Certificates" source="x_opde_certificate">f424aa4b1be554503508542d1e4bcb12</sys_package>
             <sys_policy/>
             <sys_scope display_value="Certificates">f424aa4b1be554503508542d1e4bcb12</sys_scope>
-            <sys_update_name>sys_documentation_x_opde_certificate_certificates_record_organization_country_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_opde_certificate_certificates_record_server_list_en</sys_update_name>
             <sys_updated_by>mgrabar</sys_updated_by>
-            <sys_updated_on>2020-06-26 16:30:15</sys_updated_on>
+            <sys_updated_on>2020-09-16 19:00:51</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
